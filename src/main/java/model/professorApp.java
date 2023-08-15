@@ -75,8 +75,7 @@ public class professorApp {
 		String url = "jdbc:mysql://localhost:3306/courses";
 
 		String user = "root";
-
-		String pwd = "root";
+		String pwd = "Vipul@8800";
 
 		try {
 
@@ -118,12 +117,12 @@ public class professorApp {
 
 				if (y > 0) {
 
-					String sql2 = "insert into professor values(?,?,?,?)";
+					String sql2 = "insert into professor values(?,?,?)";
 					pstmt = con.prepareStatement(sql2);
 					pstmt.setInt(1, getPid());
 					pstmt.setInt(2, getCid());
 					pstmt.setString(3, getPname());
-					pstmt.setInt(4, getExp());
+//					pstmt.setInt(4, getExp());
 
 					int z = pstmt.executeUpdate();
 

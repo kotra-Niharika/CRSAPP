@@ -47,7 +47,7 @@
         <a class="menu-item" href="viewStudent.jsp">View Student</a>
         <a class="menu-item" href="viewProfessor.jsp">View Professor</a>
         <a class="menu-item" href="viewCourse.jsp">View Course</a>
-        <a class="menu-item" href="manageControl.html">Manage</a>
+  
         <a class="menu-item" href="Logout">Log Out</a>
     </div>
 </body>

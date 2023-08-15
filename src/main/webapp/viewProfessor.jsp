@@ -53,7 +53,7 @@
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/courses";
         String user = "root";
-        String pass = "Welcome@123";
+        String pass = "Vipul@8800";
 
         Connection con = DriverManager.getConnection(url, user, pass);
         String sql = "select * from professor";

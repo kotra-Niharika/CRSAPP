@@ -31,7 +31,7 @@ public class AdminController extends HttpServlet {
 			res.sendRedirect("/CRSAPP/manageControl.html");
 
 		} else {
-			res.sendRedirect("/CRSAPP/Admin.html");
+			res.sendRedirect("/CRSAPP/loginProfessorFail.jsp");
 		}
 
 	}

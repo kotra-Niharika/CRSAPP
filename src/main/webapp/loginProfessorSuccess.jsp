@@ -101,7 +101,7 @@
 
         String url = "jdbc:mysql://localhost:3306/courses";
         String user = "root";
-        String pass = "Welcome@123";
+        String pass = "Vipul@8800";
 
         Connection con = DriverManager.getConnection(url, user, pass);
         session = request.getSession();
@@ -120,8 +120,8 @@
         if (r3.next()) {
             cname = r3.getString(2);
         }
-
-        out.println("<b>Course Id</b> : " + cid + "<br><br>");
+	
+        out.println("<br><br><b>Course Id</b> : " + cid + "<br><br>");
         out.println("<b>Course Assigned</b> : " + cname + "<br><br>");
 
         PreparedStatement prep1 = con.prepareStatement("Select * from student where cid=?");

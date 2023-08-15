@@ -57,8 +57,7 @@ public class CourseApp {
 		String url = "jdbc:mysql://localhost:3306/courses";
 
 		String user = "root";
-
-		String pwd = "root";
+		String pwd = "Vipul@8800";
 
 		try {
 
