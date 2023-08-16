@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #99ccff 20%, #3333cc 100%);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+
+        .login-form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form  action="admin" method="post">
+           <h2 class="form-title">Admin Login</h2>
+            
+            <label class="form-label">User Name</label>
+            <input class="form-input" type="text" name="user_name" required>
+            
+            <label class="form-label">Password</label>
+            <input class="form-input" type="password" name="password" required>
+            
+            <button class="form-button" type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
