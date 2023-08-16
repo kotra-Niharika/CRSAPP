@@ -28,7 +28,7 @@ public class AdminController extends HttpServlet {
 
 		if (b == true) {
 
-			res.sendRedirect("/CRSAPP/manageControl.html");
+			res.sendRedirect("/CRSAPP/menu.jsp");
 
 		} else {
 			res.sendRedirect("/CRSAPP/loginProfessorFail.jsp");

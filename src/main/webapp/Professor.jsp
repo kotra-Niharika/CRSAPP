@@ -6,16 +6,25 @@
     <meta charset="UTF-8">
     <title>Admin Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            text-align: center;
-        }
+body {
+   background-image: url("professor.jpg");
+   background-size: 100%; /* Adjust the size as needed */
+   background-repeat: no-repeat;
+   background-position: right;
+   height: 1000px;
+   width: 1000px;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgba(248, 249, 250, 0.9); /* Adjust the alpha value for transparency */
+   text-align: center;
+
+}
+     
 
         h2 {
             font-size: 1.5rem;
+            text-align: center;
             margin-top: 20px;
             color: #333; /* Dark gray color */
         }

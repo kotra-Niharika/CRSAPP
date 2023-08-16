@@ -7,25 +7,39 @@
     <title>Course Management Menu</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+          background-image: url("menu1.jpg");
+   background-size: 100%; /* Adjust the size as needed */
+   background-repeat: no-repeat;
+   background-position: right;
+   height: 300px;
+   width: 300px;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgba(248, 249, 250, 0.9); /* Adjust the alpha value for transparency */
+   text-align: center;
+        
+           /* font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            text-align: center;
+            background-color: ;
+            text-align: center;*/
         }
 
         .menu {
             display: inline-block;
-            margin-top: 20px;
+          
+            margin-top: 50px;
+            margin-left:60px;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(248, 249, 250, 0.9);
             border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.2);
             text-align: left;
         }
 
         .menu-item {
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             color: #007bff; /* Blue color */
             text-decoration: none;
             transition: color 0.3s;
