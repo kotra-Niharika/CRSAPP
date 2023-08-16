@@ -11,6 +11,12 @@
     <title>Login Successful</title>
     <style>
         body {
+                    background-image: url("professor.jpg");
+            background-size: 100%; /* Adjust the size as needed */
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 1000px;
+            width: 1000px;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -20,13 +26,13 @@
 
         h1, h2 {
             font-size: 2rem;
-            margin-top: 20px;
+            margin-top: 1px;
             color: #333;
         }
 
         form {
             display: inline-block;
-            margin-top: 20px;
+            
             padding: 20px;
             background-color: #fff;
             border-radius: 5px;
@@ -35,16 +41,16 @@
         }
 
         label {
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 0;
         }
 
         input[type="text"],
         input[type="password"] {
-            width: 100%;
+            width: 90%;
             padding: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 1px;
             border: 1px solid #ccc;
             border-radius: 3px;
         }
@@ -70,8 +76,8 @@
 
         hr {
             border: none;
-            border-top: 1px solid #ccc;
-            margin: 20px 0;
+            border-top:  solid #ccc;
+            margin: 1px 0;
         }
     </style>
 </head>

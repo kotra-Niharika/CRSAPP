@@ -7,30 +7,44 @@
     <title>Login Student</title>
     <style>
         body {
+
+                   background-image: url("login.png");
+   background-size: 100%; /* Adjust the size as needed */
+   background-repeat: no-repeat;
+   background-position: right;
+   height:800px;
+   width:1200px;
+   
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
             text-align: center;
+            opacity: 1.0;
+             backdrop-filter: blur(2px);
+
+        
         }
 
         h2 {
             font-size: 2rem;
-            margin-top: 20px;
-            color: #333;
+            margin-top: 30px;
+            color: #0056b3;
         }
 
         form {
+
             display: inline-block;
-            margin-top: 20px;
+            margin-top: 10px;
             padding: 20px;
-            background-color: #fff;
+           background-color:  #f8f9fa;
             border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 2.0);
             text-align: left;
         }
 
         label {
+
             font-size: 1.1rem;
             display: block;
             margin-bottom: 5px;
@@ -38,7 +52,7 @@
 
         input[type="text"],
         input[type="password"] {
-            width: 100%;
+            width: 90%;
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ccc;

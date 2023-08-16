@@ -7,62 +7,61 @@
     <title>Course Management Menu</title>
     <style>
         body {
-          background-image: url("menu1.jpg");
-   background-size: 100%; /* Adjust the size as needed */
-   background-repeat: no-repeat;
-   background-position: right;
-   height: 300px;
-   width: 300px;
-   font-family: Arial, sans-serif;
-   margin: 0;
-   padding: 0;
-   background-color: rgba(248, 249, 250, 0.9); /* Adjust the alpha value for transparency */
-   text-align: center;
-        
-           /* font-family: Arial, sans-serif;
+            background-color: rgba(248, 249, 250, 0.9);
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: ;
-            text-align: center;*/
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            background-image: url("menu1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: right;
         }
 
-        .menu {
+        .left-container,
+        .right-container {
+            display: flex;
+            flex-direction: column;
+            align-items:left;
+            justify-content:center;
+            flex: 1;
+            padding: 30px;
+        }
+
+        .button {
             display: inline-block;
-          
-            margin-top: 50px;
-            margin-left:60px;
-            padding: 20px;
-            background-color: rgba(248, 249, 250, 0.9);
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.2);
-            text-align: left;
-        }
-
-        .menu-item {
+            padding: 10px 20px;
             font-size: 1.5rem;
-            color: #007bff; /* Blue color */
+            color: white;
+            background-color: #007bff; /* Blue color */
+            border: none;
+            border-radius: 5px;
             text-decoration: none;
-            transition: color 0.3s;
-            display: block;
-            margin-bottom: 10px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin: 25px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 2.2);
         }
 
-        .menu-item:hover {
-            color: #0056b3; /* Darker blue color on hover */
+        .button:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
         }
     </style>
 </head>
 <body>
-    <div class="menu">
-        <a class="menu-item" href="addCourse.html">Add Course</a>
-        <a class="menu-item" href="removeCourse.html">Remove Course</a>
-        <a class="menu-item" href="removeProfessor.html">Remove Professor</a>
-        <a class="menu-item" href="removeStudent.html">Remove Student</a>
-        <a class="menu-item" href="viewStudent.jsp">View Student</a>
-        <a class="menu-item" href="viewProfessor.jsp">View Professor</a>
-        <a class="menu-item" href="viewCourse.jsp">View Course</a>
-  
-        <a class="menu-item" href="Logout">Log Out</a>
+    <div class="left-container">
+        <a href="addCourse.html"><button class="button">Add Course</button></a>
+        <a href="removeCourse.html"><button class="button">Remove Course</button></a>
+        <a href="removeProfessor.html"><button class="button">Remove Professor</button></a>
+        <a href="removeStudent.html"><button class="button">Remove Student</button></a>
+    </div>
+    <div class="right-container">
+        <a href="viewStudent.jsp"><button class="button">View Student</button></a>
+        <a href="viewProfessor.jsp"><button class="button">View Professor</button></a>
+        <a href="viewCourse.jsp"><button class="button">View Course</button></a>
+        <a href="Logout"><button class="button">Log Out</button></a>
     </div>
 </body>
 </html>
